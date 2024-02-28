@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
   // Check if body is empty
   if (body.innerHTML.trim() === "") {
     // If body is empty, write the string "DOM load success"
-    body.textContent = "DOM load success";
+    body.innerText = "DOM load success";
   }
 });
