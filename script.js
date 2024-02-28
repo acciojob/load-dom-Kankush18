@@ -1,11 +1,5 @@
 //your JS code here. If required.
-document.addEventListener('DOMContentLoaded', function() {
-
-  var body = document.querySelector("body");
-
-  
-  
-   
-    body.innerText = "DOM load success";
-  
-});
+document.addListener('DOMContentLoaded',(e)=>{
+	let body=document.querySelector('body');
+	body.innertext= "DOM load success";
+})
